@@ -11,7 +11,10 @@ if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
 fi
 
 #exports
+export PATH=~/Library/Python/2.7/bin:$PATH
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
 
 #rbevn
 eval "$(rbenv init -)"
