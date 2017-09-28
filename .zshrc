@@ -14,6 +14,9 @@ fi
 export PATH=~/Library/Python/2.7/bin:$PATH
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 . "/usr/local/opt/nvm/nvm.sh"
 
 #rbevn
